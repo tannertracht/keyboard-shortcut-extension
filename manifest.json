@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Tab Duplicator Shortcut",
-  "description": "This extension allows the user to change the background color of the current page.",
+  "description": "An extension to do some things with keyboard shortcuts",
   "version": "1.0",
 
   "browser_action": {
@@ -16,7 +16,7 @@
   ],
   "background": {
 	"scripts": ["eventPage.js"],
-	"persistent": true
+	"persistent": false
   },
   "commands": {
     "boom": {
